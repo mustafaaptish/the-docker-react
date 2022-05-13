@@ -6,4 +6,4 @@ services:
    - docker build -t mustafa1987/the-docker-react -f Dockerfile.dev .
 
  script:
-   - docker run -e CI=true mustafa1987/the-docker-react npm run test
+   - docker run -e CI=true mustafaaptish/the-docker-react npm run test
